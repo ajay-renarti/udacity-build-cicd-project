@@ -5,11 +5,11 @@ name = "pypi"
 
 [packages]
 flask = "*"
-uwsgi = "*"
+uwsgi = "==2.0.24"
 flask-cors = "*"
-pytest = "*"
 
 [dev-packages]
+pytest = "*"
 black = "*"
 flake8 = "*"
 coverage = "*"
